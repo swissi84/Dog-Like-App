@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "8AECEBD1-4A46-4653-AA5D-67B5FB213334",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:DogLike.xcodeproj",
+        "identifier" : "6549F30F2CD910A70071808F",
+        "name" : "DogLikeTest"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:DogLike.xcodeproj",
+        "identifier" : "6549F31C2CD9158B0071808F",
+        "name" : "DogLikeUITest"
+      }
+    }
+  ],
+  "version" : 1
+}
